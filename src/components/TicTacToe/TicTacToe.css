@@ -1,0 +1,31 @@
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+flex-direction: column;
+}
+.boxes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  border: 2px solid rgb(53, 145, 201);
+  width: 10rem;
+  height: 10rem;
+  background-color: aqua;
+}

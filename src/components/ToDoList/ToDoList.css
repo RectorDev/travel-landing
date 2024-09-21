@@ -1,0 +1,63 @@
+.task {
+  display: flex;
+  padding: 0rem 1rem;
+  padding-left: 0.5rem;
+  background-color: rgb(54, 46, 42);
+  color: antiquewhite;
+  border-radius: 0.5rem;
+  width: 400px;
+  margin: 1rem 0rem;
+  justify-content: space-between;
+  align-items: center;
+}
+span {
+  width: fit-content;
+}
+
+.del:hover {
+  background-color: rgb(133, 34, 34);
+}
+.del {
+  padding: auto;
+  background-color: brown;
+}
+.move {
+  padding: auto;
+  background-color: chocolate;
+}
+.tasks {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.contrainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.txt-box{
+    background-color: aquamarine;
+    border-radius: 10px;
+    padding-left: 1rem;
+    width: 350px;
+
+}
+.sub{
+    padding: 0.5rem 1rem;
+    margin-top: 10px;
+    border-radius: 10px;
+    justify-self: center;
+    width: fit-content;
+    background-color: rgb(136, 135, 133);
+}
+button.sub:active{
+    background-color: rgb(60, 61, 61);
+}
