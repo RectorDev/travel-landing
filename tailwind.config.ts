@@ -1,10 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: "class",
   content: ["./pages/**/*.{js,ts,jsx,tsx,mdx}", "./components/**/*.{js,ts,jsx,tsx,mdx}", "./app/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
     extend: {
-      fontFamily: {},
+      fontFamily: { noto: "var(--font-noto)", vazir: "var(--font-vazir)" },
       colors: {
+        primary: "hsl(var(--primary))",
+        secondary: "hsl(var(--secondary))",
         green: {
           50: "#30AF5B",
           90: "#292C27",
