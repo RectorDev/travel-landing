@@ -20,7 +20,7 @@ export default function Hero() {
                 <Image src={"/star.svg"} key={index} alt="star " width={24} height={24} />
               ))}
           </div>
-          <p dir="rtl" className="text-blue-70 lg:bold-20 bold-16 dark:text-blue-50" >
+          <p dir="rtl" className="text-blue-70 lg:bold-20 bold-16 dark:text-blue-50">
             198 هزار <span className="regular-16 lg:regular-20 ml-1">رضایت کامل</span>
           </p>
         </div>
@@ -31,12 +31,23 @@ export default function Hero() {
         </div>
       </div>
       <div className="relative flex flex-1 items-start ">
-        <div className="relative z-20 w-[268px] flex-col rounded-3xl bg-secondary/90 gap-8 px-7 py-8">
+        <div className="relative z-20 w-[268px] flex-col rounded-3xl bg-secondary/90 gap-8 flex px-7 py-8">
           <div className="flex flex-col">
-            <div className="flexBetween">
-              <p className="regular-16 text-primary/90">
-                مکان
-              </p>
+            <div className="flexBetween ">
+              <p className="regular-16 text-primary/60">مکان</p>
+              <Image className="dark:invert" src={"/close.svg"} width={24} height={24} alt="close" />
+            </div>
+            <p className="bold-20 text-primary">جنگل طبس</p>
+          </div>
+
+          <div className="flexBetween">
+            <div className="flex flex-col">
+              <p className="regular-16 block text-primary/60">فاصله</p>
+              <p className="bold-20 text-primary">173.2 ک.م</p>
+            </div>
+            <div className="flex flex-col">
+              <p className="regular-16 block text-primary/60">فاصله</p>
+              <p className="bold-20 text-primary">173.2 ک.م</p>
             </div>
           </div>
         </div>
