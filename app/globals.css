@@ -134,11 +134,14 @@ body {
 
   /* Hero */
   .hero-map {
-    -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    @apply   absolute left-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-28 xl:-top-60 dark:invert ;
+    @media screen and (max-width: 500px) {
+      -mozc-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+    }
+
+    @apply absolute left-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-28 xl:-top-60 dark:invert;
   }
 
   /* Camp */
