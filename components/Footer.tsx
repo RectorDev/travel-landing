@@ -5,7 +5,7 @@ import { ReactNode } from "react";
 
 export default function Footer() {
   return (
-    <section className="flexCenter mb-24">
+    <section dir="rtl" className="flexCenter mb-24">
       <div className="padding-container max-container flex w-full flex-col gap-14 ">
         <div className="flex flex-col items-start justify-center gap-10 md:flex-row">
           <Link href="#">
@@ -47,7 +47,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border bg-slate-500"></div>
-        <p className=" regular-14 w-full text-center text-gray-600"><span className="text-amber-500">رِکتور</span> اینجا بوده</p>
+        <p className=" regular-14 w-full text-center text-secondary/70"><span className="text-amber-500">رِکتور</span> اینجا بوده</p>
       </div>
     </section>
   );

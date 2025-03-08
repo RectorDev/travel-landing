@@ -6,7 +6,7 @@ export default function GetApp() {
     <section className="flexCenter w-full flex-col pb-[100px]">
       <div className="get-app">
         <div className="z-20 flex w-full flex-1 flex-col items-start justify-between gap-12">
-          <h2 className="bold-40 lg:bold-64 xl:max-w-[320px]">!رایگان دانلود کنید</h2>
+          <h2 className="bold-40 lg:bold-64 text-white xl:max-w-[320px]">!رایگان دانلود کنید</h2>
           <p className="regular-16 text-gray-10">برای اندروید و اپل</p>
           <div className="flex flex-col w-full gap-3 whitespace-nowrap xl:flex-row">
             <Button type="button" icon="/apple.svg" variant="btn_white" title="دانلود برای اندروید" full />

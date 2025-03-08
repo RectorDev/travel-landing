@@ -15,7 +15,7 @@ export default function Navbar() {
       <ul className="hidden h-full gap-12 lg:flex" dir="rtl">
         {NAV_LINKS.map((item) => (
           <li key={item.key}>
-            <Link className="regular-16 text-gray-50 flexCenter cursor-pointer pb-1.5  transition-all hover:font-bold" href={item.href}>
+            <Link className="regular-16 text-secondary/70 flexCenter cursor-pointer pb-1.5  transition-all hover:font-bold" href={item.href}>
               {item.label}
             </Link>
           </li>
@@ -26,6 +26,7 @@ export default function Navbar() {
       </div>
 
       <Image src={"menu.svg"} width={32} height={32} alt="menu" className="inline-block cursor-pointer lg:hidden" />
+      <div></div>
     </nav>
   );
 }
