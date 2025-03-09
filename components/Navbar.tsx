@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import Button from "./Button";
-import ThemeToggle from "./ThemeToggle";
 
 export default function Navbar() {
   return (
@@ -26,7 +25,7 @@ export default function Navbar() {
       </div>
 
       <Image src={"menu.svg"} width={32} height={32} alt="menu" className="inline-block cursor-pointer lg:hidden" />
-      <div></div>
+      <div className="fixed top-0 right-0"></div>
     </nav>
   );
 }
