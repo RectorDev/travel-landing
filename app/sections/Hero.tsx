@@ -30,7 +30,7 @@ export default function Hero() {
           <Button title="ما چیکار میکنم؟" variant="btn_white_text" icon="/play.svg" />
         </div>
       </div>
-      <div className="relative flex flex-1 items-start ">
+      <div className="relative flex flex-1 justify-end items-start ">
         <div className="relative z-20 w-[268px] flex-col rounded-3xl bg-secondary/90 gap-8 flex px-7 py-8">
           <div className="flex flex-col">
             <div className="flexBetween ">

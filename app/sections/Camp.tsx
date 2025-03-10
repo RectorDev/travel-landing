@@ -2,7 +2,7 @@ import { PEOPLE_URL } from "@/constants";
 import Image from "next/image";
 export default function Camp() {
   return (
-    <section className="border-4 border-purple-800 2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20">
+    <section className=" 2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20">
       <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px] ">
         <CampSite backgroundImage="bg-bg-img-1" title="کمپ جنگل طبس" subtitle="سبزوار, طبس" peopleJoined="30+ Joined" />
         <CampSite backgroundImage="bg-bg-img-2" title="کوه های ششتمد" subtitle="سبزوار, ششتمد" peopleJoined="50+ Joined" />
